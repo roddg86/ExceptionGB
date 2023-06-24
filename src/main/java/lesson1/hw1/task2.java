@@ -13,16 +13,23 @@ public class task2 {
      */
 
     public static void main(String[] args) {
-        int[] array1 = {111, 222, 444, 555, 777};
+        //int[] array1 = {111, 222, 444, 555, 777};
+        int[] array1 = null;
         int[] array2 = {10, 22, 33, 44};
         System.out.println("Новый массив = " + Arrays.toString(newArray(array1, array2)));
     }
 
     public static int[] newArray(int[] arr1, int[] arr2) {
-        int[] resArr = new int[arr1.length];
+
+        if (arr1 == null || arr2 == null)
+            throw new RuntimeException("Массив равен NULL, заполните массив");
+
 
         if (arr1.length != arr2.length)
             throw new RuntimeException("Длины массивов не совпадают");
+
+        int[] resArr = new int[arr1.length];
+
         for (int i = 0; i < resArr.length; i++) {
             resArr[i] = arr1[i] - arr2[i];
         }

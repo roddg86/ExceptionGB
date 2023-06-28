@@ -16,26 +16,36 @@ fun main() {
     println("Введенное число: $userInput")
 }
 
+/**
+ * В этом коде мы создаем новый экземпляр Scanner с помощью Scanner(input).use,
+ * чтобы ограничить его область видимости только внутри блока use.
+ * После выполнения блока use, ресурс Scanner автоматически закрывается.
+ *
+ * Теперь при каждой итерации цикла будет создаваться новый сканер,
+ * который будет автоматически закрываться после использования.
+ */
 fun getDoubleInput(): Double {
-    val scanner = Scanner(System.`in`)
     var number = 0.0
     var isValidInput = false
 
     while (!isValidInput) {
         print("Введите дробное число: ")
-        val input = scanner.nextLine()
+        val input = readLine()
 
         try {
-            number = input.toDouble()
-            val integerValue = number.toInt()
-            if (number != integerValue.toDouble()) {
-                isValidInput = true
-            } else {
-                throw NumberFormatException()
+            Scanner(input).use { scanner ->
+                number = scanner.nextDouble()
+                val integerValue = number.toInt()
+                if (number != integerValue.toDouble()) {
+                    isValidInput = true
+                } else {
+                    throw NumberFormatException()
+                }
             }
         } catch (e: NumberFormatException) {
             println("Некорректный формат числа или вы ввели целое число. Пожалуйста, введите дробное число.")
         }
     }
+
     return number
 }

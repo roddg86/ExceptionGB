@@ -1,0 +1,28 @@
+июн. 30, 2023 9:32:11 PM lesson3.hw3.UserDataLogger logInfo
+INFO: Тестовое сообщение:
+июн. 30, 2023 9:32:11 PM lesson3.hw3.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Введено меньше данных, чем требуется
+июн. 30, 2023 9:32:57 PM lesson3.hw3.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Введено меньше данных, чем требуется
+июн. 30, 2023 9:33:30 PM lesson3.hw3.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Идентичные данные уже существуют в файле
+июн. 30, 2023 9:41:52 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Введено меньше данных, чем требуется
+июн. 30, 2023 9:46:12 PM lesson3.hw3.utils.logger.UserDataLogger logError
+SEVERE: Не указано имя
+июн. 30, 2023 9:46:12 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Не указано имя
+июн. 30, 2023 9:47:25 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Идентичные данные уже существуют в файле
+июн. 30, 2023 9:47:42 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Некорректный формат пола
+июн. 30, 2023 11:08:41 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Идентичные данные уже существуют в файле
+июн. 30, 2023 11:08:47 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Введено меньше данных, чем требуется
+июн. 30, 2023 11:08:48 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Введено меньше данных, чем требуется
+июн. 30, 2023 11:08:59 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Не указано имя
+июн. 30, 2023 11:09:05 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Некорректное значение имя

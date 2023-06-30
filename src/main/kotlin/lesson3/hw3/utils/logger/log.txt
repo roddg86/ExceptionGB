@@ -1,0 +1,4 @@
+июн. 30, 2023 9:38:58 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Введено меньше данных, чем требуется
+июн. 30, 2023 9:40:46 PM lesson3.hw3.utils.logger.UserDataLogger logWarning
+WARNING: Ошибка ввода данных: Введено меньше данных, чем требуется
